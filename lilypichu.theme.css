@@ -154,3 +154,36 @@
 .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {
   color: var(--interactive-normal);
 }
+
+/**
+* @author Appl3Kitti3
+*/
+
+/*
+Modified specified things in this theme for personal uses!
+*/
+
+/* Change most of the font to Comic Sans! */
+* {
+    font-family: "Comic Sans MS"; !important
+}
+
+/* Change the font for the profile overlay. */
+.theme-dark {
+    font-family: "Comic Sans MS"; !important
+}
+
+/* Change the text decorations when chatting in italics. Using "* <text> *" */
+em span {
+    color: pink; !important
+}
+
+/* Change the text decorations when chatting in bold. Using "** <text> **" */
+strong span {
+    color: red; !important
+}
+
+/* Hide muted conversations! */
+div[class*="muted"], #account-switch-account {
+    display: none;
+}
