@@ -182,8 +182,3 @@ em span {
 strong span {
     color: red; !important
 }
-
-/* Hide muted conversations! */
-div[class*="muted"], #account-switch-account {
-    display: none;
-}
